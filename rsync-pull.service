@@ -1,0 +1,17 @@
+[Unit]
+Description=Rsync Pull from Drone
+After=network-online.target
+Wants=Network-online.target
+
+[Service]
+ExecStart=/home/rnd/Downloads/DroneBaseTransfer/pull_from_drone.sh
+Restart=always
+RestartSec=5
+User=rnd
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7
+
+[Install]
+WantedBy=multi-user.target
+
