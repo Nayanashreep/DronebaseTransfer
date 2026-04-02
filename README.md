@@ -153,12 +153,6 @@ Base Station  →  Drone Pi
 
 ---
 
-## Author
-
-Drone Autonomous System Project
-
----
-
 ## Notes
 
 * Ensure SSH access between Base and Drone
@@ -182,4 +176,3 @@ MIT License
 
 ---
 
-**Ready for autonomous drone deployment **
